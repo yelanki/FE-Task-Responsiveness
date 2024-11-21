@@ -1,0 +1,23 @@
+{
+  "name": "fe-task-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yelanki/FE-task-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yelanki/FE-task-2/issues"
+  },
+  "homepage": "https://github.com/yelanki/FE-task-2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
