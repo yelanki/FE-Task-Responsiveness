@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body>
+    <header class="w-full h-16 mb-[120px] md:mx-48 sticky bg-black-50 top-0 z-50">
+        <div class="container">
+            <ul class="flex items-center justify-between">
+                <li class="mr-4">
+                    <a href="#">
+                        <img src="./images/Logo.png">
+                    </a>
+                </li>
+                <li class="flex items-center gap-4">
+                    <nav class="hidden lg:flex lg:gap-8 lg:items-center">
+                        <a href="#" class="text-18 text-gray-800 hover:text-gray-600">Home</a>
+                        <a href="#" class="text-18 text-gray-800 hover:text-gray-600">About Me</a>
+                        <a href="#" class="text-18 text-gray-800 hover:text-gray-600">Services</a>
+                        <a href="#" class="text-18 text-gray-800 hover:text-gray-600">Projects</a>
+                        <a href="#" class="text-18 text-gray-800 hover:text-gray-600">Contact</a>
+                    </nav>
+                    <a href="#"
+                        class="flex w-[188px] h-[48px] bg-orange-400 items-center justify-center rounded-lg text-18 text-gray-800 hover:text-gray-600">Download
+                        CV</a>
+                    <!-- without using a div or a wrapper how we can center the text here -->
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="mx-24">
+        <section class="flex flex-col pt-[97px] lg:mb-20 lg:h-max">
+            <div class="flex flex-col lg:flex-row">
+                <div class="flex flex-col gap-3 w-full lg:w-30% pr-20">
+                    <h2 class="text-24">Hi, I am</h2>
+                    <h2 class="text-36 text-orange-400">Fawzi Sayed</h2>
+                    <h2 class="text-69 font-bold leading-none">UI & UX</h2>
+                    <h2 class="text-69 font-bold ml-36 leading-none">Designer</h2>
+                    <p class="flex text-18 text-center">
+                        Lorem ipsum dolor sit amet consectetur. Tristique amet sed
+                        massa nibh
+                        lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra
+                    </p>
+                    <a href="#"
+                        class="hover:text-gray-600 w-[188px] h-[52px] bg-orange-400 rounded-lg text-18 text-white items-center">
+                        Download CV
+                    </a>
+                </div>
+                <figure class="shrink-0 w-max h-max mb-4">
+                    <img src="./images/Group 2.png">
+                </figure>
+            </div>
+            <div class='flex mr-20 gap-6 justify-end'>
+                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1210_2979)">
+                        <path
+                            d="M32.4752 16.2376C32.4752 7.26983 25.2054 0 16.2376 0C7.26983 0 0 7.26983 0 16.2376C0 24.3422 5.93783 31.0598 13.7005 32.278V20.9313H9.57766V16.2376H13.7005V12.6603C13.7005 8.59072 16.1247 6.34282 19.8337 6.34282C21.6097 6.34282 23.4684 6.65996 23.4684 6.65996V10.6559H21.421C19.404 10.6559 18.7748 11.9077 18.7748 13.1931V16.2376H23.2782L22.5582 20.9313H18.7748V32.278C26.5374 31.0598 32.4752 24.3422 32.4752 16.2376Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1210_2979">
+                            <rect width="32.4752" height="32.4752" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1210_2978)">
+                        <path
+                            d="M10.7247 29.4303C22.9765 29.4303 29.6796 19.2774 29.6796 10.4754C29.6796 10.19 29.6732 9.89824 29.6605 9.61281C30.9645 8.66981 32.0898 7.50178 32.9835 6.16358C31.7691 6.70389 30.4798 7.05677 29.1595 7.21015C30.5496 6.37685 31.5905 5.06778 32.0892 3.5256C30.7814 4.30067 29.3512 4.84741 27.8598 5.14239C26.855 4.0747 25.5264 3.36776 24.0795 3.13087C22.6326 2.89399 21.1479 3.14034 19.8551 3.83186C18.5622 4.52337 17.5332 5.62153 16.927 6.95654C16.3209 8.29155 16.1714 9.78906 16.5017 11.2175C13.8536 11.0847 11.2629 10.3967 8.89771 9.1984C6.5325 8.00005 4.44551 6.31803 2.77205 4.26137C1.92151 5.7278 1.66125 7.46306 2.04415 9.11449C2.42705 10.7659 3.42439 12.2096 4.83347 13.1521C3.77562 13.1185 2.74094 12.8337 1.81492 12.3212V12.4037C1.81397 13.9426 2.34599 15.4343 3.32053 16.6253C4.29508 17.8163 5.65201 18.6331 7.16065 18.9368C6.18072 19.2049 5.15224 19.2439 4.15479 19.0509C4.5805 20.3744 5.40878 21.5319 6.52403 22.362C7.63928 23.1921 8.98586 23.6533 10.3758 23.6812C8.01607 25.5348 5.10108 26.5402 2.10035 26.5355C1.56819 26.5346 1.03656 26.502 0.508301 26.4378C3.55672 28.3935 7.10285 29.4322 10.7247 29.4303Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1210_2978">
+                            <rect width="32.4752" height="32.4752" fill="white"
+                                transform="translate(0.508301 -0.00012207)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1210_2977)">
+                        <path
+                            d="M16.2542 2.92392C20.5927 2.92392 21.1065 2.94295 22.8127 3.01906C24.3984 3.08883 25.2547 3.35523 25.8255 3.57723C26.5803 3.869 27.1258 4.2242 27.6903 4.78871C28.2612 5.35956 28.61 5.8987 28.9018 6.6535C29.1238 7.22435 29.3902 8.08698 29.46 9.66634C29.5361 11.3789 29.5551 11.8927 29.5551 16.2248C29.5551 20.5633 29.5361 21.0771 29.46 22.7833C29.3902 24.369 29.1238 25.2253 28.9018 25.7961C28.61 26.5509 28.2548 27.0964 27.6903 27.6609C27.1195 28.2318 26.5803 28.5806 25.8255 28.8724C25.2547 29.0944 24.3921 29.3608 22.8127 29.4306C21.1001 29.5067 20.5864 29.5257 16.2542 29.5257C11.9157 29.5257 11.402 29.5067 9.69575 29.4306C8.11004 29.3608 7.25376 29.0944 6.68291 28.8724C5.92811 28.5806 5.38263 28.2254 4.81812 27.6609C4.24726 27.0901 3.89841 26.5509 3.60664 25.7961C3.38464 25.2253 3.11824 24.3627 3.04847 22.7833C2.97236 21.0707 2.95333 20.557 2.95333 16.2248C2.95333 11.8863 2.97236 11.3726 3.04847 9.66634C3.11824 8.08063 3.38464 7.22435 3.60664 6.6535C3.89841 5.8987 4.25361 5.35322 4.81812 4.78871C5.38897 4.21785 5.92811 3.869 6.68291 3.57723C7.25376 3.35523 8.11639 3.08883 9.69575 3.01906C11.402 2.94295 11.9157 2.92392 16.2542 2.92392ZM16.2542 -0.00012207C11.846 -0.00012207 11.2941 0.0189064 9.56255 0.0950202C7.8373 0.171134 6.65119 0.450218 5.62366 0.849816C4.55172 1.26844 3.6447 1.82027 2.74401 2.72729C1.83699 3.62797 1.28517 4.535 0.86654 5.60059C0.466942 6.63447 0.187858 7.81423 0.111744 9.53948C0.03563 11.2774 0.0166016 11.8292 0.0166016 16.2375C0.0166016 20.6458 0.03563 21.1976 0.111744 22.9292C0.187858 24.6544 0.466942 25.8405 0.86654 26.8681C1.28517 27.94 1.83699 28.847 2.74401 29.7477C3.6447 30.6484 4.55172 31.2066 5.61731 31.6188C6.65119 32.0184 7.83096 32.2975 9.5562 32.3736C11.2878 32.4498 11.8396 32.4688 16.2479 32.4688C20.6561 32.4688 21.208 32.4498 22.9396 32.3736C24.6648 32.2975 25.8509 32.0184 26.8785 31.6188C27.944 31.2066 28.8511 30.6484 29.7517 29.7477C30.6524 28.847 31.2106 27.94 31.6229 26.8744C32.0225 25.8405 32.3016 24.6608 32.3777 22.9355C32.4538 21.2039 32.4728 20.6521 32.4728 16.2438C32.4728 11.8356 32.4538 11.2838 32.3777 9.55217C32.3016 7.82692 32.0225 6.64081 31.6229 5.61328C31.2233 4.535 30.6715 3.62797 29.7644 2.72729C28.8638 1.82661 27.9567 1.26844 26.8911 0.856159C25.8573 0.456561 24.6775 0.177477 22.9522 0.101363C21.2143 0.0189064 20.6625 -0.00012207 16.2542 -0.00012207Z"
+                            fill="black" />
+                        <path
+                            d="M16.2544 7.89673C11.6495 7.89673 7.91357 11.6327 7.91357 16.2375C7.91357 20.8424 11.6495 24.5784 16.2544 24.5784C20.8593 24.5784 24.5952 20.8424 24.5952 16.2375C24.5952 11.6327 20.8593 7.89673 16.2544 7.89673ZM16.2544 21.648C13.2669 21.648 10.844 19.225 10.844 16.2375C10.844 13.2501 13.2669 10.8271 16.2544 10.8271C19.2419 10.8271 21.6648 13.2501 21.6648 16.2375C21.6648 19.225 19.2419 21.648 16.2544 21.648Z"
+                            fill="black" />
+                        <path
+                            d="M26.872 7.56676C26.872 8.64504 25.9967 9.514 24.9248 9.514C23.8465 9.514 22.9775 8.63869 22.9775 7.56676C22.9775 6.48847 23.8528 5.61951 24.9248 5.61951C25.9967 5.61951 26.872 6.49482 26.872 7.56676Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1210_2977">
+                            <rect width="32.4752" height="32.4752" fill="white"
+                                transform="translate(0.0166016 -0.00012207)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1210_2976)">
+                        <path
+                            d="M30.5962 -0.00012207H2.92249C1.59684 -0.00012207 0.524902 1.04644 0.524902 2.34038V30.1283C0.524902 31.4222 1.59684 32.4751 2.92249 32.4751H30.5962C31.9219 32.4751 33.0001 31.4222 33.0001 30.1346V2.34038C33.0001 1.04644 31.9219 -0.00012207 30.5962 -0.00012207ZM10.1596 27.6736H5.3391V12.1718H10.1596V27.6736ZM7.74938 10.0596C6.20173 10.0596 4.95219 8.81006 4.95219 7.26875C4.95219 5.72745 6.20173 4.47791 7.74938 4.47791C9.29068 4.47791 10.5402 5.72745 10.5402 7.26875C10.5402 8.80371 9.29068 10.0596 7.74938 10.0596ZM28.1986 27.6736H23.3844V20.1383C23.3844 18.3433 23.3527 16.0282 20.879 16.0282C18.3736 16.0282 17.993 17.9881 17.993 20.0115V27.6736H13.1852V12.1718H17.8027V14.2903H17.8662C18.5068 13.0724 20.0798 11.7848 22.4203 11.7848C27.298 11.7848 28.1986 14.9943 28.1986 19.1679V27.6736Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1210_2976">
+                            <rect width="32.4752" height="32.4752" fill="white"
+                                transform="translate(0.524902 -0.00012207)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+        </section>
+        <section class="flex flex-col lg:flex-row w-full items-center pt-[69px] lg:h-max">
+            <figure class="shrink-0">
+                <img src="./images/Group 7.png">
+            </figure>
+            <div>
+                <h2 class="text-24 font-bold">About Me</h2>
+                <p class="text-18">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus
+                    in. Aliquet
+                    donec morbi convallis pretium. Turpis tempus pharetra</p>
+                <ul>
+                    <li>
+                        <figure>
+                            <figcaption class="text-24 font-bold">UX</figcaption>
+                            <img src="./images/Group 8.png">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <figcaption class="text-24 font-bold">Website Design</figcaption>
+                            <img src="./images/Group 8.png">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <figcaption class="text-24 font-bold">App Design</figcaption>
+                            <img src="./images/Group 8.png">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <figcaption class="text-24 font-bold">Graphic Design</figcaption>
+                            <img src="./images/Group 8.png">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="mb-28">
+            <div class="flex flex-col items-center">
+                <div class="flex flex-col w-3/4 items-center gap-4 mb-6">
+                    <h2 class="text-28 font-semibold">Services</h2>
+                    <p class="text-18 text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
+                        nibh lectus
+                        netus in. Aliquet donec morbi convallis
+                        pretium</p>
+                </div>
+                <div class="flex gap-4">
+                    <div class="bg-black-50 rounded-lg pl-2 px-5 pt-12 pb-4">
+                        <figure>
+                            <img src="./images/Layer_1.png">
+                            <figcaption class="text-24 font-semibold">UI/UX</figcaption>
+                        </figure>
+                        <h2 class="text-18">Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
+                        </h2>
+                    </div>
+                    <div class="bg-black-50 rounded-lg gap-2 pl-2 px-5 pt-12 pb-4">
+                        <figure>
+                            <img src="./images/Layer_1.png">
+                            <figcaption class="text-24 font-semibold">Web Design</figcaption>
+                        </figure>
+                        <h2 class="text-18">Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
+                        </h2>
+                    </div>
+                    <div class="bg-black-50 rounded-lg pl-2 px-5 pt-12 pb-4">
+                        <figure>
+                            <img src="./images/Layer_1.png">
+                            <figcaption class="text-24 font-semibold">App Design</figcaption>
+                        </figure>
+                        <h2 class="text-18">Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
+                        </h2>
+                    </div>
+                    <div class="bg-black-50 rounded-lg pl-2 px-5 pt-12 pb-4">
+                        <figure>
+                            <img src="./images/Layer_1.png">
+                            <figcaption class="text-24 font-semibold">Graphic Design</figcaption>
+                        </figure>
+                        <h2 class="text-18">Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-full">
+            <div class="flex flex-col items-center justify-center gap-4">
+                <div class="flex w-2/4 flex-col items-center">
+                    <h2 class="text-28 font-semibold">My Projects</h2>
+                    <p class=" text-18 text-center">Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam
+                        mauris est risus
+                        lectus. Phasellus consequat urna
+                        tellus</p>
+                </div>
+                <div class="flex gap-4 mb-24 pt-10">
+                    <a href="#"
+                        class="flex w-[50px] h-[40px] items-center justify-center rounded-lg border border-gray-300 bg-black-50 hover:bg-gray-100 text-gray-600 hover:text-gray-600">All</a>
+                    <a href="#"
+                        class="flex w-[80px] h-[40px] items-center justify-center rounded-lg border border-gray-300 bg-black-50 hover:bg-gray-100 text-gray-600 hover:text-gray-600">UI/UX</a>
+                    <a href="#"
+                        class="flex w-[100px] h-[40px] bg-orange-400 items-center justify-center rounded-lg border border-gray-300 hover:bg-gray-100 text-gray-600 hover:text-gray-600">Web
+                        Design</a>
+                    <a href="#"
+                        class="flex w-[100px] h-[40px]  items-center justify-center rounded-lg border border-gray-300 bg-black-50 hover:bg-gray-100 text-gray-600 hover:text-gray-600">App
+                        Design</a>
+                    <a href="#"
+                        class="flex w-[120px] h-[40px]  items-center justify-center rounded-lg border border-gray-300 bg-black-50 hover:bg-gray-100 text-gray-600 hover:text-gray-600">Graphic
+                        design</a>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-4 w-full">
+                    <figure class="flex flex-col lg:flex-row gap-4 w-full">
+                        <img class="h-full w-full object-cover" src="./images/Group 25.svg">
+                        <img class="h-full w-full object-cover" src="./images/Group 25.svg" class="w-33%">
+                        <img class="h-full w-full object-cover" src="./images/Group 25.svg" class="w-33%">
+                    </figure>
+                    <!-- Add SVG here  -->
+                </div>
+            </div>
+        </section>
+        <section class="mt-20 mb-20">
+            <div>
+                <div class="flex flex-col w-3/4 items-center mb-8 pl-48">
+                    <h2 class="text-28 font-semibold text-center">Testimonials</h2>
+                    <p class="text-18 text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
+                        lectus
+                        netus in. Aliquet donec morbi convallis
+                        pretium</p>
+                </div>
+                <div class="flex gap-8">
+                    <div
+                        class="flex items-center justify-center gap-4 w-[800px]h-[344px] rounded-lg bg-black-50 px-12 py-14 flex-shrink-0 opacity-30 blur-sm">
+                        <figure>
+                            <img src="./images/Image cap boy.png">
+                        </figure>
+                        <div>
+                            <p><span class="text-orange-200 text-24">"</span>Lorem ipsum dolor sit amet consectetur.
+                                In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu
+                                condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo
+                                ultrices.<span class="text-orange-200 text-24">"</span></p>
+                            <h2>Name</h2>
+                            <h2>CEO</h2>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center justify-center gap-4 w-[800px]h-[344px] rounded-lg bg-black-50 px-12 py-14 flex-shrink-0">
+                        <figure>
+                            <img src="./images/Image cap boy.png">
+                        </figure>
+                        <div>
+                            <p><span class="text-orange-200 text-24">"</span>Lorem ipsum dolor sit amet consectetur.
+                                In enim cursus odio
+                                accumsan. Id leo urna velit neque mattis id tellus arcu
+                                condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo
+                                ultrices.<span class="text-orange-200 text-24">"</span></p>
+                            <h2>Name</h2>
+                            <h2>CEO</h2>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center justify-center gap-4 w-[800px]h-[344px] rounded-lg bg-black-50 px-12 py-14 flex-shrink-0 opacity-30 blur-sm">
+                        class="">
+                        <figure>
+                            <img src="./images/Image cap boy.png">
+                        </figure>
+                        <div>
+                            <p><span class="text-orange-200 text-24">"</span>Lorem ipsum dolor sit amet consectetur.
+                                In enim cursus odio
+                                accumsan. Id leo urna velit neque mattis id tellus arcu
+                                condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo
+                                ultrices.<span class="text-orange-200 text-24">"</span></p>
+                            <h2>Name</h2>
+                            <h2>CEO</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <span class="w-20 h-4 bg-black-50 rounded-lg"></span>
+                    <span class="w-20 h-4 bg-black-50 rounded-lg"></span>
+                    <span class="w-20 h-4 bg-black-50 rounded-lg"></span>
+                    <span class="w-20 h-4 bg-orange-300 rounded-lg"></span>
+                    <span class="w-20 h-4 bg-black-50 rounded-lg"></span>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col items-center justify-center mb-20">
+            <h2 class="text-28 font-semibold">Lets Design Together</h2>
+            <p class="text-18 text-center">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus
+                netus in. Aliquet donec morbi convallis
+                pretium</p>
+            <div class="flex gap-4 items-center justify-center mt-10">
+                <div>
+                    <input class="rounded-lg border border-gray-300 px-6 py-4" type="email"
+                        placeholder="Enter your Email">
+                </div>
+                <a href="#"
+                    class=" text-18 items-center justify-center rounded-lg border border-gray-300 bg-orange-300 px-6 py-4text-18 text-gray-800 hover:text-gray-600">Download
+                    CV</a>
+            </div>
+        </section>
+    </main>
+    <footer class="flex flex-col items-center justify-center gap-[80px] bg-gray-100">
+        <figure>
+            <img class="w-[150px] h-[100px]" src="./images/Logo.png">
+        </figure>
+        <div class="flex gap-6">
+            <h2>Home</h2>
+            <h2>About</h2>
+            <h2>Services</h2>
+            <h2>Projects</h2>
+            <h2>Testimonials</h2>
+            <h2>Contact</h2>
+        </div>
+        <figure class="flex gap-4">
+            <img src="./images/Facebook - Negative.png">
+            <img src="./images/Twitter - Negative.png">
+            <img src="./images/Instagram - Negative.png">
+            <img src="./images/Linkedin - Negative.png">
+        </figure>
+        <div class="flex w-full bg-black-200 justify-center items-center h-12">
+            <h2>2023<span class="text-18 text-orange-300">FauziUiUx</span></span>All Rights Reserved, Inc.</h2>
+        </div>
+    </footer>
+</body>
+
+</html>
